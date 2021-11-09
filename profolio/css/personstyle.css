@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	padding: 10px;
+    font-size: 18px;
+	background-image:url("yun.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+h2{
+	font-size: 2em; 
+	font-weight: bold;
+}
+p, h1, h2 {
+    padding: 10px;
+}
+
+
+header, nav, main, h1, footer{
+	margin: 10px 0;
+	
+}
+a:hover{
+	text-decoration:underline;
+}
+.skip a{
+	background: white;
+	left: 0;
+	padding: 6px;
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+	z-index: 1;
+	position:absolute;
+	top:-40px;
+}
+.skip a:focus{
+	position:static;
+}
+nav ul{
+	list-style-type: none;
+  }
+  
+nav li{
+	display: inline;
+	padding-right: 20px;
+  }
+  
+nav{
+	background-color:transparent;
+	padding: 10px 0;    
+	text-align: right;   
+  }
+a:visited{color:hsla(180, 3%, 6%, 0.899)}
+
+footer{
+	background-color:darkgrey;
+	color: white;
+	padding-top: 1px;
+	text-align: center;
+  }
